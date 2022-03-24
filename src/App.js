@@ -1,15 +1,18 @@
 import React from 'react';
 import { BrowserRouter,Route, Switch } from 'react-router-dom';
-import Board from './components/Board';
-import Home from './components/Home';
-import Login from './components/Login';
-import Summary from './components/Summary';
+import Board from './components/dashboard/Board';
+import Home from './components/dashboard/Home';
+import Login from './components/auth/login/Login';
+import Summary from './components/dashboard/Summary';
 
 
 const App = () => {
   return (
     <div>  
-      <Login/>  
+      <Login/>
+      <Home/>
+      <Summary/>
+      <Board/>
   
     </div>
   )
