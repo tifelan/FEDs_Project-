@@ -1,2 +1,2 @@
-# cReat
+# FEDs_Project
 I used the React frontend framework for all of the projects in this repository
